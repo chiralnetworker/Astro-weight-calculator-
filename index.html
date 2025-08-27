@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8">
+    <title>Astro Weight Calculator</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+  </head>
+<body>
+  <main>
+    <center><input id="user-weight" class="user-weight" type="text" placeholder="Weight (lbs)" /></center>
+  <center><select class="planets" name="Planets" id="planets"></center>
+    <option value="">--Please Choose A Planet--</option>
+    <option value="Pluto">Pluto</option>
+    <option value="Neptune">Neptune</option>
+    <option value="Uranus">Uranus</option>
+    <option value="Saturn">Saturn</option>
+    <option value="Jupiter">Jupiter</option>
+    <option value="Mars">Mars</option>
+    <option value="Moon">Moon</option> 
+    <option value="Earth">Earth</option>
+    <option value="Venus">Venus</option>
+    <option value="Mercury">Mercury</option>
+    <option value="Sun">Sun</option>
+  </select>
+<section>
+  <div>
+  <button id="calculate-button" type="button" value="Calculate">Calculate</button>
+  </div>
+ <p id="output"></p>
+</section>
+ 
+ </main>
+ <script src="main.js"></script>
+</body>
